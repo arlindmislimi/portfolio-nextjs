@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "/laptop.webp",
     spareImg: "",
   },
   {
@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a Real Estate Desktop Application",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,68 +72,91 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-    img: "/p1.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "/ui.earth.com",
+    title: "Pflasterungen-Aliji-Bau",
+    des: "This is a professional website developed for Pflasterungen Aliji-Bau, a paving and construction company based in Austria. Designed with Angular, HTML, and SCSS, the website offers a clean and modern layout to highlight the company's services, projects, and expertise in paving solutions",
+    img: "/pflasterungen.png",
+    iconLists: ["/angular.svg", "/css_old.svg", "/ts.svg", "/html5.svg"],
+    link: "https://pflasterungen-aliji-bau.com/",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-    img: "/p2.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "/ui.yoom.com",
+    title: "I-Stiftung",
+    des: "The platform showcases the foundation's mission, events, and community initiatives while offering easy content management for administrators through Strapi. It reflects the foundation's values and serves as a central hub for engaging with the community.",
+    img: "/islam-vakfi.png",
+    iconLists: [
+      "/angular.svg",
+      "/css_old.svg",
+      "/ts.svg",
+      "/html5.svg",
+      "/strapi.svg",
+    ],
+    link: "https://i-stiftung.isolvedev.website/",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-    img: "/p3.svg",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-    link: "/ui.aiimg.com",
+    title: "Reifen-Top-Auto",
+    des: "Reifen-Top-Auto is an e-commerce platform specializing in the sale of high-quality tires. Built with Angular for the frontend and Strapi for the backend, the website combines HTML, SCSS, and Bootstrap to deliver a sleek and user-friendly design.",
+    img: "/reifen.png",
+    iconLists: [
+      "/angular.svg",
+      "/css_old.svg",
+      "/ts.svg",
+      "/html5.svg",
+      "/strapi.svg",
+      "/bootstrap.svg",
+    ],
+    link: "https://reifen.t-auto.ch",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-    img: "/p4.svg",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-    link: "/ui.apple.com",
+    title: "Jm-Organic",
+    des: "JM-Organic is an e-commerce platform specializing in health and beauty products. Built using Angular for the frontend, Strapi for the backend, and styled with HTML, SCSS, and Bootstrap, the website offers a sleek, user-friendly shopping experience.",
+    img: "/jmorganic.png",
+    iconLists: [
+      "/angular.svg",
+      "/css_old.svg",
+      "/ts.svg",
+      "/html5.svg",
+      "/strapi.svg",
+      "/bootstrap.svg",
+    ],
+    link: "https://jmorganics.mk",
+  },
+  {
+    id: 5,
+    title: "Neo-Damage",
+    des: "Streamline damage reporting for your company. This web application allows users to easily report incidents, while providing administrators with tools to manage users, companies, and track reported damages.",
+    img: "/neo-damage.png",
+    iconLists: [
+      "/angular.svg",
+      "/css_old.svg",
+      "/ts.svg",
+      "/html5.svg",
+      "/strapi.svg",
+      "/bootstrap.svg",
+    ],
+    link: "https://dev.damage.neo.swiss",
   },
 ];
 
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Arlind was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Arlind's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Arlind is the ideal partner.",
+    name: "John Doe",
+    title: "Founder of Pflasterungen Aliji Bau",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Arlind transformed our vision into reality with his impeccable skills and creative insights. He ensured every detail was meticulously crafted, making our website both functional and visually stunning. His ability to listen and provide innovative solutions is truly commendable.",
+    name: "Sarah Miller",
+    title: "Owner of Boutique Lifestyle",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
-  },
-  {
-    quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Arlind has been a game-changer for our business. His technical expertise and problem-solving capabilities were unmatched. Arlind’s commitment to excellence and his ability to deliver ahead of deadlines exceeded all expectations. I wholeheartedly recommend him for any project.",
+    name: "Michael Brown",
+    title: "CEO of Horizon Tech Solutions",
   },
 ];
 
@@ -174,27 +197,20 @@ export const workExperience = [
   {
     id: 1,
     title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    desc: "Assisted in the development of a web-based platform using Angular, enhancing interactivity.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Programming Instructor",
+    desc: "Teaching basic & advanced programming courses such as: Scratch, AppInventor, FrontEnd technologies(HTML5, CSS, JavaScript,jQuery, Bootstrap, Angular & React)",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
-    id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
-  },
-  {
     id: 4,
-    title: "Lead Frontend Developer",
+    title: "Frontend Developer",
     desc: "Developed and maintained user-facing features using modern frontend technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
@@ -205,13 +221,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/arlindmislimi",
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://github.com/arlindmislimi",
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/arlind-mislimi-9bb36b201/",
   },
 ];

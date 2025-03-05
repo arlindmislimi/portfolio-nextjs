@@ -15,9 +15,7 @@ const Approach = () => {
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}
-          des="We'll collaborate to map out your website's goals, target audience, 
-          and key functionalities. We'll discuss things like site structure, 
-          navigation, and content requirements."
+          des="I provide detailed planning and strategy services to turn your ideas into actionable solutions. This includes conducting research, defining goals, and outlining a step-by-step roadmap to ensure a successful project. Whether it's a mobile app, web application, or desktop software, I collaborate with you to align the strategy with your vision and business objectives."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -28,9 +26,7 @@ const Approach = () => {
         <Card
           title="Development & Progress Update"
           icon={<AceternityIcon order="Phase 2" />}
-          des="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          des="With a focus on transparency and efficiency, I offer regular progress updates during the development phase. From writing clean, scalable code to testing and troubleshooting, I ensure that every step of the development process is optimized for quality. You'll stay informed through detailed reports, demos, and feedback sessions, so you’re always in the loop."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -50,9 +46,7 @@ const Approach = () => {
         <Card
           title="Development & Launch"
           icon={<AceternityIcon order="Phase 3" />}
-          des="This is where the magic happens! Based on the approved design, 
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          des="I handle the final stages of development with precision to prepare your project for a successful launch. This includes deployment, performance optimization, and post-launch support to ensure everything runs smoothly. Whether it’s launching a website, mobile app, or desktop application, I’ll help you go live with confidence."
         >
           <CanvasRevealEffect
             animationSpeed={3}
