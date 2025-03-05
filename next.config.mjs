@@ -2,8 +2,8 @@ import { withSentryConfig } from "@sentry/nextjs";
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",  
-  basePath: "/portfolio-nextjs", // Change this to your repo name
+  output: "server",  // Switch from "export" to "server"
+  basePath: "/portfolio-nextjs",
   assetPrefix: "/portfolio-nextjs/",
   images: {
     unoptimized: true,
